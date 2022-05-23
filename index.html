@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft - log in or sign up</title>
+    <link rel="SHORTCUT ICON" href="https://c.s-microsoft.com/favicon.ico?v2" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <div class="container mt-48 flex mx-auto items-start justify-center">
+
+        <div class="left w-1/2 mx-14">
+            <img class="w-72" src="https://bit.ly/3skXNmS" alt="">
+            <p class="mx-6 text-2xl pr-5">Microsoft Corporation is an American multinational technology corporation which produces computer software, consumer electronics, personal computers, and related services.</p>
+            <button  class="btn  bg-blue-600
+                hover:bg-blue-700"><a class="w-10 px-3 mt-5" href="home.html">  Go to Home  </a></button>
+           
+        </div>
+        <!-- login container -->
+        <form id="form" name="form" action="">
+
+            <div class="right flex flex-col bg-white p-8 rounded-xl border shadow-lg">
+
+                <input type="text" placeholder="Email address or phone number" id="email" class="border rounded-md w-80 h-12 mb-3 px-4 hover:border-green-500 outline-blue-600">
+
+                <input type="password" placeholder="Password" id="password" class="border rounded-md w-80 h-12 mb-3  px-4 hover:border-green-500 outline-blue-600">
+
+                <button  class="btn bg-blue-600
+                hover:bg-blue-700" onclick="return validateForm()"> Log In</button>
+                <span class="mb-3 pl-20 text-blue-500 hover:underline">Forgotten password?</span>
+                <hr>
+                <button class="btn bg-green-600 hover:bg-green-700">Create Account</button>
+            </div>
+        </form>
+            <!-- form end here -->
+    </div>
+    <p class="flex flex-row-reverse mt-5 pr-32">Create a Page for a celebrity, brand or business.</p>
+    <!-- footer -->
+    <div class="footer flex flex-col items-center bg-white min-h-full min-w-full mt-4 pt-5">
+            Create By ❤ Satyam Mishra
+                <p>Tailwind CSS</p>
+                <p>My First Tailwind Project</p>
+    </div>
+
+</body>
+
+</html>
